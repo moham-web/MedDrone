@@ -1,0 +1,46 @@
+/* This will center the .box div both vertically and horizontally */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Take up full viewport height */
+  }
+  
+  .box {
+    width: 100%;
+    height: 325px;
+    max-width: 400px;         /* Set a maximum width for the form */
+    padding: 20px;            /* Add some padding inside the box */
+    position: relative;
+  }
+  
+  .login {
+    margin-top: 20px;         /* Add space between form elements */
+  }
+  
+  .field {
+    margin-bottom: 15px;      /* Space between form fields */
+  }
+  
+  #submit {
+    position: absolute;
+    left: 100px;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    margin: 10px auto;
+  }
+  
+.box h1 {
+    text-align: center;
+
+    font-size: 1.5rem;
+    margin: 0;
+
+}
+  
