@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+abbr{
+    text-decoration: none;
+}
+.datatable {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically (if needed) */
+    flex-direction: column;   /* Stack the tables vertically (if you want them stacked) */
+    width: 100%;              /* Ensure it takes full width */
+    height: 100%;             /* Optional: if you want to center vertically within the full screen */
+    text-align: center;       /* Optional: to center any text within the table */
+    margin: 0 auto;           /* Center the datatable container */
+}
+
+.table {
+    margin: 20px 0;           /* Add some space between tables (if multiple) */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;         /* Align text to the left in table cells */
+}
+
+form{
+    position: absolute;
+}
